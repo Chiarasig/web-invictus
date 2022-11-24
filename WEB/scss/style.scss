@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background: linear-gradient(to right, black,grey)
+}
+
+.container{
+    background: linear-gradient(to right, black,grey);
+    max-width: 100%;
+    color: white;
+    text-align: center;
+    margin-top: 2rem;
+p{margin-top: 2rem;}
+}
+
+body{
+    background: linear-gradient(to right, black,grey);
+    .carousel-inner{
+        height: 400px;
+    }
+    .titulo{
+        color: white;
+    }
+    h1{
+        color: white;
+        text-align: center;
+        display: inline-block;
+        position: relative;
+     }
+    h1::after,h1::before{
+        content:'';
+        position: absolute;
+        width: 120px;
+        height: 3px;
+        background-color: yellow;
+        top: 0.6em;
+    }
+    h1::after{
+        right: -140px;
+    }
+    h1::before{
+        left: -140px;
+    }
+}
+footer{
+    
+    .Contenedor_descarga{
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        height: 10rem;
+        margin-top: 10rem;
+        color: white;
+        gap: 2rem;
+    }
+    .footer-sm{
+        color: white;
+        text-align: center;
+        font-size: 1.5rem;
+       
+    }
+    .footer-sm a{
+        color: white;
+        opacity: 0,65;
+    }
+
+    .footer-sm_icons :hover{
+        opacity: 0.65;
+    }
+}

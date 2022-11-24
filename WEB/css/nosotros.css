@@ -1,0 +1,62 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.menu{
+  background: linear-gradient(to right, black, gray);
+}
+body{
+  background: linear-gradient(to right, black, gray);
+  background-image: url(../IMAGENES/celu.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+footer{
+  padding-bottom: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  
+}
+.footer-sm {
+    color: white;
+    text-align: center;
+   text-transform: capitalize;
+   margin-top: 10rem;
+}
+
+.footer-sm a {
+    color: white;
+    
+  }
+
+  .footer-sm i {
+    font-size: 2rem;
+    margin-left: 1.5rem;
+    margin-top: 0%;
+  }
+
+  .footer-sm_icons {
+    text-align: center;
+  }
+
+  .footer-sm_icons :hover {
+    opacity: 0.65;
+  }
+.titulo{
+text-transform: capitalize;
+font-size: 4.5rem;
+font-weight: 900;
+display: flex;
+color: white;
+justify-content: center;
+margin-top: 5rem;
+}
+.parrafo{
+  color: white;
+  justify-content: center;
+  display: flex;
+  text-align: center;
+  text-transform: capitalize;
+ padding: 2rem;
+}
