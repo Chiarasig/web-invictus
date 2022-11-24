@@ -21,7 +21,7 @@
     display: flex;
     justify-content: center;
     flex-direction: column;
-    width: 50%;
+    width: 100%;
     flex-wrap: wrap;
     padding: 3rem;
     background: linear-gradient(rgba(235, 235, 233, 0.336), rgba(112, 111, 103, 0.308));
