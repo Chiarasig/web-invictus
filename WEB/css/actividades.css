@@ -15,6 +15,9 @@ header {
     background: linear-gradient(to right, black, grey);
     margin-top: 2rem;
   }
+  .nav-link{
+    display: flex;
+  }
   .container-cards{
     display: flex;
     gap: 2rem;
@@ -33,11 +36,11 @@ header {
  }
 h1::after,h1::before{
     content:'';
-    position: absolute;
-    width: 120px;
     height: 3px;
     background-color: yellow;
     top: 0.6em;
+    display: flex;
+    flex-wrap: wrap;
 }
 h1::after{
     right: -140px;
@@ -87,4 +90,16 @@ footer .footer-sm {
 }
 .subtitutloCarrusel{
     font-size: larger;
+}
+@media screen and (min-width: 660px) {
+  body h1::after, body h1::before {
+    content: "";
+    position: absolute;
+    width: 120px;
+    height: 3px;
+    background-color: yellow;
+    top: 0.6em;
+    display: flex;
+    flex-wrap: wrap;
+  }
 }
