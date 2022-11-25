@@ -25,27 +25,26 @@ body {
 body .carousel-inner {
   height: 400px;
 }
-body .titulo {
-  color: white;
-}
-body .titulo-principal {
+body .titulo-invictus {
   color: white;
   text-align: center;
   display: inline-block;
   position: relative;
 }
-body .titulo-principal::after, body .titulo-principal::before {
+body .titulo-invictus::after, body .titulo-invictus::before {
   content: "";
   display: flex;
   flex-wrap: wrap;
   height: 3px;
   background-color: yellow;
   top: 0.6em;
+  position: absolute;
+  width: 120px;
 }
-body .titulo-principal::after {
+body .titulo-invictus::after {
   right: -140px;
 }
-body .titulo-principal::before {
+body .titulo-invictus::before {
   left: -140px;
 }
 
@@ -75,7 +74,7 @@ body .titulo-principal::before {
 }
 
 @media screen and (min-width: 710px) {
-  body h1::after, body h1::before {
+  body .titulo-invictus::after, body .titulo-invictus::before::before {
     content: "";
     position: absolute;
     width: 120px;
@@ -182,14 +181,6 @@ header {
   display: flex;
 }
 
-.container-cards {
-  display: flex;
-  gap: 2rem;
-  text-align: center;
-  margin-top: 2rem;
-  margin-left: 4.5rem;
-}
-
 .titulo-actividades {
   color: white;
   text-align: center;
@@ -197,7 +188,7 @@ header {
   position: relative;
 }
 
-.titulo-actividades::after, h1::before {
+.titulo-actividades::after, .titulo-actividades::before {
   content: "";
   height: 3px;
   background-color: yellow;
@@ -243,7 +234,7 @@ header {
 
 .carousel-item {
   width: 100%;
-  height: 500px;
+  height: 400px;
 }
 
 .buttonAct {
@@ -266,7 +257,7 @@ header {
 }
 
 @media screen and (min-width: 660px) {
-  body h1::after, body h1::before {
+  body .titulo-actividades::after, body .titulo-actividades::before {
     content: "";
     position: absolute;
     width: 120px;
@@ -380,14 +371,6 @@ header {
   display: flex;
 }
 
-.container-cards {
-  display: flex;
-  gap: 2rem;
-  text-align: center;
-  margin-top: 2rem;
-  margin-left: 4.5rem;
-}
-
 .titulo-actividades {
   color: white;
   text-align: center;
@@ -395,7 +378,7 @@ header {
   position: relative;
 }
 
-.titulo-actividades::after, h1::before {
+.titulo-actividades::after, .titulo-actividades::before {
   content: "";
   height: 3px;
   background-color: yellow;
@@ -441,7 +424,7 @@ header {
 
 .carousel-item {
   width: 100%;
-  height: 500px;
+  height: 400px;
 }
 
 .buttonAct {
@@ -464,7 +447,7 @@ header {
 }
 
 @media screen and (min-width: 660px) {
-  body h1::after, body h1::before {
+  body .titulo-actividades::after, body .titulo-actividades::before {
     content: "";
     position: absolute;
     width: 120px;
@@ -496,7 +479,8 @@ header {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  width: 100%;
+  width: 50%;
+  height: 500px;
   flex-wrap: wrap;
   padding: 3rem;
   background: linear-gradient(rgba(235, 235, 233, 0.336), rgba(112, 111, 103, 0.308));
