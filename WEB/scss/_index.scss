@@ -74,7 +74,6 @@ body{
 @media screen and (min-width: 710px) {
     body .titulo-invictus::after, body .titulo-invictus::before::before {
       content: "";
-      position: absolute;
       width: 120px;
       height: 3px;
       background-color: yellow;
