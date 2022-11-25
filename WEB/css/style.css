@@ -4,93 +4,6 @@
   box-sizing: border-box;
 }
 
-header {
-  background: linear-gradient(to right, black, grey);
-}
-
-.container-index {
-  background: linear-gradient(to right, black, grey);
-  max-width: 100%;
-  color: white;
-  text-align: center;
-  margin-top: 2rem;
-}
-.container-index p {
-  margin-top: 2rem;
-}
-
-body {
-  background: linear-gradient(to right, black, grey);
-}
-body .carousel-inner {
-  height: 400px;
-}
-body .titulo-invictus {
-  color: white;
-  text-align: center;
-  display: inline-block;
-  position: relative;
-}
-body .titulo-invictus::after, body .titulo-invictus::before {
-  content: "";
-  display: flex;
-  flex-wrap: wrap;
-  height: 3px;
-  background-color: yellow;
-  top: 0.6em;
-  position: absolute;
-  width: 120px;
-}
-body .titulo-invictus::after {
-  right: -140px;
-}
-body .titulo-invictus::before {
-  left: -140px;
-}
-
-.footer {
-  background: linear-gradient(to right, black, grey);
-}
-.footer .Contenedor_descarga {
-  text-align: center;
-  display: flex;
-  justify-content: center;
-  height: 10rem;
-  margin-top: 10rem;
-  color: white;
-  gap: 2rem;
-}
-.footer .footer-sm {
-  color: white;
-  text-align: center;
-  font-size: 1.5rem;
-}
-.footer .footer-sm a {
-  color: white;
-  opacity: 0, 65;
-}
-.footer .footer-sm_icons :hover {
-  opacity: 0.65;
-}
-
-@media screen and (min-width: 710px) {
-  body .titulo-invictus::after, body .titulo-invictus::before::before {
-    content: "";
-    position: absolute;
-    width: 120px;
-    height: 3px;
-    background-color: yellow;
-    top: 0.6em;
-    display: flex;
-    flex-wrap: wrap;
-  }
-}
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
 .menu-nosotros {
   background: linear-gradient(to right, black, gray);
 }
@@ -545,6 +458,94 @@ header {
 .form {
   background: linear-gradient(rgba(235, 235, 233, 0.336), rgba(112, 111, 103, 0.308));
   box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.3);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background: linear-gradient(to right, black, grey);
+}
+
+.container-index {
+  background: linear-gradient(to right, black, grey);
+  max-width: 100%;
+  color: white;
+  text-align: center;
+  margin-top: 2rem;
+}
+.container-index p {
+  margin-top: 2rem;
+}
+
+body {
+  background: linear-gradient(to right, black, grey);
+}
+body .carousel-inner {
+  height: 400px;
+}
+body .titulo-invictus {
+  color: white;
+  text-align: center;
+  display: inline-block;
+  position: relative;
+}
+body .titulo-invictus::after, body .titulo-invictus::before {
+  content: "";
+  display: flex;
+  flex-wrap: wrap;
+  height: 3px;
+  background-color: yellow;
+  top: 0.6em;
+  position: absolute;
+  width: 120px;
+}
+body .titulo-invictus::after {
+  right: -140px;
+}
+body .titulo-invictus::before {
+  left: -140px;
+}
+
+.footer {
+  background: linear-gradient(to right, black, grey);
+}
+.footer .Contenedor_descarga {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  height: 10rem;
+  margin-top: 10rem;
+  color: white;
+  gap: 2rem;
+}
+.footer .footer-sm {
+  color: white;
+  text-align: center;
+  font-size: 1.5rem;
+}
+.footer .footer-sm a {
+  color: white;
+  opacity: 0, 65;
+}
+.footer .footer-sm_icons :hover {
+  opacity: 0.65;
+}
+
+@media screen and (min-width: 710px) {
+  body .titulo-invictus::after, body .titulo-invictus::before::before {
+    content: "";
+    position: absolute;
+    width: 120px;
+    height: 3px;
+    background-color: yellow;
+    top: 0.6em;
+    display: flex;
+    flex-wrap: wrap;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
