@@ -486,19 +486,6 @@ header {
   flex-direction: column;
 }
 
-.form {
-  color: white;
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  width: 50%;
-  height: 500px;
-  flex-wrap: wrap;
-  padding: 3rem;
-  background: linear-gradient(rgba(235, 235, 233, 0.336), rgba(112, 111, 103, 0.308));
-  box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.3);
-}
-
 .containerForm {
   background: url(../IMAGENES/Slider2.jpeg);
   min-height: 85vh;
@@ -540,6 +527,24 @@ header {
 
 .inconosRedes {
   color: white;
+}
+
+@media screen and (min-width: 660px) {
+  .form {
+    content: "";
+    color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 50%;
+    height: 500px;
+    flex-wrap: wrap;
+    padding: 3rem;
+  }
+}
+.form {
+  background: linear-gradient(rgba(235, 235, 233, 0.336), rgba(112, 111, 103, 0.308));
+  box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.3);
 }
 
 /*# sourceMappingURL=style.css.map */
