@@ -50,24 +50,6 @@ body{
         opacity: 0.65;
     }
 }
-@media screen and (min-width: 660px) {
-    body .titulo-invictus::after, body .titulo-invictus::before {
-      content: "";
-      position: absolute;
-      width: 120px;
-      height: 3px;
-      background-color: yellow;
-      top: 0.6em;
-      display: flex;
-      flex-wrap: wrap;
-    }
-  }
-  .titulo-invictus{
-    color: white;
-    text-align: center;
-    display: inline-block;
-    position: relative;
- }
 .titulo-invictus::after,.titulo-invictus::before{
     content:'';
     height: 3px;
@@ -76,9 +58,26 @@ body{
     display: flex;
     flex-wrap: wrap;
 }
+.titulo-invictus{
+    color: white;
+    text-align: center;
+    display: inline-block;
+    position: relative;
+ }
 .titulo-invictus::after{
     right: -140px;
 }
 .titulo-invictus::before{
     left: -140px;
 }
+
+@media screen and (min-width: 680px) {
+    body .titulo-invictus::after, body .titulo-invictus::before {
+      content: "";
+      height: 3px;
+      background-color: yellow;
+      top: 0.6em;
+      display: flex;
+      flex-wrap: wrap;
+    }
+  }
