@@ -1,0 +1,501 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background: linear-gradient(to right, black, grey);
+}
+
+.body-actividades {
+  background: linear-gradient(to right, black, grey);
+  max-width: 100%;
+  text-align: center;
+}
+
+.footer-actividades {
+  background: linear-gradient(to right, black, grey);
+  margin-top: 2rem;
+}
+
+.nav-link {
+  display: flex;
+}
+
+.titulo-actividades {
+  color: white;
+  text-align: center;
+  display: inline-block;
+  position: relative;
+}
+
+.titulo-actividades::after, .titulo-actividades::before {
+  content: "";
+  height: 3px;
+  background-color: yellow;
+  top: 0.6em;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.titulo-actividades::after {
+  right: -140px;
+}
+
+.titulo-actividades::before {
+  left: -140px;
+}
+
+.subtitulo-actividades {
+  color: white;
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.footer-actividades .footer-sm-actividades {
+  color: white;
+  text-align: center;
+  font-size: 1.5rem;
+  margin-top: 4rem;
+}
+
+.footer-actividades .footer-sm-actividades a {
+  color: white;
+  opacity: 0, 65;
+}
+
+.footer-actividades .footer-sm_icons-actividades :hover {
+  opacity: 0.65;
+}
+
+#carouselExampleCaptions {
+  width: 100%;
+  height: 500px;
+}
+
+.carousel-item {
+  width: 100%;
+  height: 400px;
+}
+
+.img-index{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.buttonAct {
+  border: none !important;
+  border-radius: none !important;
+  width: 100%;
+  background-color: yellow;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.button {
+  color: black;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.buttonActContainer {
+  border: none !important;
+  border-radius: none !important;
+  width: 100%;
+  font-size: large;
+}
+
+.subtitutloCarrusel {
+  font-size: larger;
+}
+
+@media screen and (min-width: 660px) {
+  body .titulo-actividades::after, body .titulo-actividades::before {
+    content: "";
+    position: absolute;
+    width: 120px;
+    height: 3px;
+    background-color: yellow;
+    top: 0.6em;
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background: linear-gradient(to right, black, grey);
+}
+
+.body-sucursales {
+  background: linear-gradient(to right, black, #808080);
+  width: 100%;
+}
+
+.footer-sucursales {
+  background: linear-gradient(to right, black, grey);
+}
+
+.titulo-sucursales {
+  color: white;
+  text-align: center;
+  margin-top: 5rem;
+}
+
+.footer-sucursales .footer-sm-sucursales {
+  color: white;
+  text-align: center;
+  font-size: 1.5rem;
+  margin-top: 4rem;
+}
+
+.footer-sucursales .footer-sm-sucursales a {
+  color: white;
+  opacity: 0, 65;
+}
+
+.footer-sucursales .footer-sm_icons-sucursales :hover {
+  opacity: 0.65;
+}
+
+.container-sucursales {
+  width: 100%;
+  display: flex;
+  text-align: center;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.card-suc {
+  width: 100%;
+  border-radius: 6px;
+  overflow: hidden;
+  background: #fff;
+  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+  transition: all 400ms ease;
+}
+
+.containerCard {
+  margin: 20px;
+}
+
+.card-suc:hover {
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+  transform: translateY(-3%);
+}
+.btn{
+  margin-bottom: 1rem;
+}
+
+.video {
+  width: 100%;
+  height: 500px;
+}
+
+@media screen and (min-width: 1220px) {
+  .containerCard {
+    width: 30%;
+  }
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background: linear-gradient(to right, black, grey);
+}
+
+.body-actividades {
+  background: linear-gradient(to right, black, grey);
+  max-width: 100%;
+  text-align: center;
+}
+
+.footer-actividades {
+  background: linear-gradient(to right, black, grey);
+  margin-top: 2rem;
+}
+
+.nav-link {
+  display: flex;
+}
+
+.titulo-actividades {
+  color: white;
+  text-align: center;
+  display: inline-block;
+  position: relative;
+}
+
+.titulo-actividades::after, .titulo-actividades::before {
+  content: "";
+  height: 3px;
+  background-color: yellow;
+  top: 0.6em;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.titulo-actividades::after {
+  right: -140px;
+}
+
+.titulo-actividades::before {
+  left: -140px;
+}
+
+.subtitulo-actividades {
+  color: white;
+  text-align: center;
+  margin-top: 2rem;
+}
+.card-act{
+  margin: 20px;
+    display: flex;
+    text-align: center;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding:2rem;
+    gap: 1rem;
+
+}
+.card{
+  border-radius: 6px;
+  overflow: hidden;
+  background: #fff;
+  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+  transition: all 400ms ease;
+}
+.card-title{
+  text-align: center;
+  margin-top: 25%;
+}
+.card:hover{
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+    transform: translateY(-3%);
+  }
+
+.footer-actividades .footer-sm-actividades {
+  color: white;
+  text-align: center;
+  font-size: 1.5rem;
+  margin-top: 4rem;
+}
+
+.footer-actividades .footer-sm-actividades a {
+  color: white;
+  opacity: 0, 65;
+}
+
+.footer-actividades .footer-sm_icons-actividades :hover {
+  opacity: 0.65;
+}
+
+
+.buttonAct {
+  border: none !important;
+  border-radius: none !important;
+  width: 100%;
+  background-color: yellow;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.button {
+  color: black;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.buttonActContainer {
+  border: none !important;
+  border-radius: none !important;
+  width: 100%;
+  font-size: large;
+}
+
+.subtitutloCarrusel {
+  font-size: larger;
+}
+
+@media screen and (min-width: 660px) {
+  body .titulo-actividades::after, body .titulo-actividades::before {
+    content: "";
+    position: absolute;
+    width: 120px;
+    height: 3px;
+    background-color: yellow;
+    top: 0.6em;
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background: linear-gradient(to right, black, grey);
+}
+
+.container-index {
+  background: linear-gradient(to right, black, grey);
+  max-width: 100%;
+  text-align: center;
+}
+.container-index p {
+  margin-top: 0.5rem;
+  text-align: left;
+  color: white;
+  padding-left: 4rem;
+}
+.clase-t{
+  margin-top: 5rem;
+  text-align: left;
+  /* padding-left: 1rem; */
+  color: yellow;
+}
+.clase-p{
+  color: white;
+  padding-left: 4rem;
+}
+.trabaja-info{
+  margin-top: 5rem;
+  color: yellow;
+  padding-left: 2rem;
+}
+.info-p{
+  margin-top: 0.5rem;
+  text-align: left;
+  color: white;
+  padding-left: 4rem;
+}
+
+body {
+  background: linear-gradient(to right, black, grey);
+}
+body .carousel-inner {
+  height: 100%;
+  
+}
+.carousel-caption{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 100px;
+  font-size: larger;
+}
+
+
+ .subtitulo-invictus{
+  text-align: center;
+        display: flex;
+        justify-content: center;
+        margin-top: 0rem;
+        color: white;
+        gap: 1rem;
+        background-color: black;
+        align-items: center;
+}
+.prueba{
+  text-align: center;
+        display: flex;
+        justify-content: center;
+        margin-top: 0.4rem;
+        gap: 1rem;
+       }
+.btn{
+  height: 2.5rem;
+  margin-top: 0.8rem;
+}
+.contenedor-img{
+ display: flex;
+ justify-content: center;
+}
+.imgs{
+  width: 350px;
+  height: 250px;
+}
+.contenedor-p{
+  padding-left: 4rem;
+}
+.footer {
+  background: linear-gradient(to right, black, grey);
+}
+.footer .Contenedor_descarga {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  height: fit-content;
+  align-items: center;
+  margin-top: 10rem;
+  color: white;
+  gap: 2rem;
+  background-color: black;
+}
+.Descarga{
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+.footer .footer-sm {
+  text-align:right;
+  font-size: 2rem;
+  padding-right: 1rem;
+}
+.footer .footer-sm a {
+  color: white;
+  opacity: 0, 65;
+}
+.footer .footer-sm_icons :hover {
+  opacity: 0.65;
+}
+
+@media screen and (max-width: 600px) {
+  .contenedor-p{
+      display: flex;
+      flex-direction: column;
+      align-content: center;
+      justify-content: center;
+      align-items: center;
+      padding-left: 0;
+  }
+  .info-p{
+      padding-left: 0;
+  }
+  .trabaja-info {
+      padding-left: 0;
+  }
+  .texto-nosotros{
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  .carousel-item {
+  height: auto;
+}
+}
+
+@media screen and (max-width: 380px) {
+  .imgs{
+    width: 300px;
+    height: 200px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
