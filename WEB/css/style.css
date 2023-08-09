@@ -1,3 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.menu-nosotros {
+  background: linear-gradient(to right, black, gray);
+}
+
+.body-nosotros{
+  background: linear-gradient(to right, black, gray);
+  background: url(../imagenes/celu.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.footer-nosotros {
+  padding-bottom: 0.5rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-sm-nosotros {
+  color: white;
+  text-align: center;
+  text-transform: capitalize;
+  margin-top: 10rem;
+}
+
+.footer-sm-nosotros a {
+  color: white;
+}
+
+.footer-sm-nosotros i {
+  font-size: 2rem;
+  margin-left: 1.5rem;
+  margin-top: 0%;
+}
+
+.footer-sm_icons-nosotros {
+  text-align: center;
+}
+
+.footer-sm_icons-nosotros :hover {
+  opacity: 0.65;
+}
+
+.titulo-nosotros {
+  text-transform: capitalize;
+  font-size: 4.5rem;
+  font-weight: 900;
+  display: flex;
+  color: white;
+  justify-content: center;
+  margin-top: 5rem;
+}
+
+.parrafo-nosotros {
+  color: white;
+  justify-content: center;
+  display: flex;
+  text-align: center;
+  text-transform: capitalize;
+  padding: 2rem;
+}
+
+.Contenedor-nosotros {
+  padding-top: 8rem;
+}
 
 * {
   margin: 0;
@@ -78,14 +148,6 @@ header {
 .carousel-item {
   width: 100%;
   height: 400px;
-}
-
-.img-index{
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 1rem;
 }
 
 .buttonAct {
@@ -175,7 +237,7 @@ header {
   justify-content: center;
 }
 
-.card-suc {
+.card {
   width: 100%;
   border-radius: 6px;
   overflow: hidden;
@@ -188,12 +250,9 @@ header {
   margin: 20px;
 }
 
-.card-suc:hover {
+.card:hover {
   box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
   transform: translateY(-3%);
-}
-.btn{
-  margin-bottom: 1rem;
 }
 
 .video {
@@ -260,32 +319,6 @@ header {
   text-align: center;
   margin-top: 2rem;
 }
-.card-act{
-  margin: 20px;
-    display: flex;
-    text-align: center;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-    padding:2rem;
-    gap: 1rem;
-
-}
-.card{
-  border-radius: 6px;
-  overflow: hidden;
-  background: #fff;
-  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
-  transition: all 400ms ease;
-}
-.card-title{
-  text-align: center;
-  margin-top: 25%;
-}
-.card:hover{
-    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
-    transform: translateY(-3%);
-  }
 
 .footer-actividades .footer-sm-actividades {
   color: white;
@@ -303,6 +336,15 @@ header {
   opacity: 0.65;
 }
 
+#carouselExampleCaptions {
+  width: 100%;
+  height: 500px;
+}
+
+.carousel-item {
+  width: 100%;
+  height: 400px;
+}
 
 .buttonAct {
   border: none !important;
@@ -341,7 +383,83 @@ header {
     flex-wrap: wrap;
   }
 }
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
+.menu {
+  background: linear-gradient(to right, black, gray);
+}
+
+.footer-contacto {
+  padding-bottom: 0.5rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.containerForm{
+  background:  url(../imagenes/Slider2.jpeg);
+  min-height: 85vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.tituloForm {
+  color: white;
+  text-align: center;
+  padding-top: 2rem;
+}
+
+.redesContacto {
+  margin-top: 5rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.subtituloFooter {
+  font-size: x-large;
+  color: white;
+}
+
+.redesFooter {
+  font-size: xx-large;
+}
+
+.contactoHeader {
+  min-height: 15vh;
+}
+
+.inconosRedes {
+  color: white;
+}
+
+@media screen and (min-width: 660px) {
+  .form {
+    content: "";
+    color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 50%;
+    height: 500px;
+    flex-wrap: wrap;
+    padding: 3rem;
+  }
+}
+.form {
+  padding: 3rem;
+  background: linear-gradient(rgba(235, 235, 233, 0.336), rgba(112, 111, 103, 0.308));
+  box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.3);
+}
 
 * {
   margin: 0;
@@ -356,84 +474,55 @@ header {
 .container-index {
   background: linear-gradient(to right, black, grey);
   max-width: 100%;
+  color: white;
   text-align: center;
+  margin-top: 2rem;
 }
 .container-index p {
-  margin-top: 0.5rem;
-  text-align: left;
-  color: white;
-  padding-left: 4rem;
-}
-.clase-t{
-  margin-top: 5rem;
-  text-align: left;
-  /* padding-left: 1rem; */
-  color: yellow;
-}
-.clase-p{
-  color: white;
-  padding-left: 4rem;
-}
-.trabaja-info{
-  margin-top: 5rem;
-  color: yellow;
-  padding-left: 2rem;
-}
-.info-p{
-  margin-top: 0.5rem;
-  text-align: left;
-  color: white;
-  padding-left: 4rem;
+  margin-top: 2rem;
 }
 
 body {
   background: linear-gradient(to right, black, grey);
 }
 body .carousel-inner {
-  height: 100%;
-  
+  height: 400px;
 }
-.carousel-caption{
+body .titulo-invictus {
+  color: white;
+  text-align: center;
+  display: inline-block;
+  position: relative;
+}
+body .titulo-invictus::after, body .titulo-invictus::before {
+  content: "";
   display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-bottom: 100px;
-  font-size: larger;
+  flex-wrap: wrap;
+  height: 3px;
+  background-color: yellow;
+  top: 0.6em;
+/*   position: absolute;
+  width: 120px; */
+}
+@media screen and (min-width: 710px) {
+  body .titulo-invictus::after, body .titulo-invictus::before {
+    content: "";
+    position: absolute;
+    width: 120px;
+    height: 3px;
+    background-color: yellow;
+    top: 0.6em;
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+body .titulo-invictus::after {
+  right: -140px;
+}
+body .titulo-invictus::before {
+  left: -140px;
 }
 
-
- .subtitulo-invictus{
-  text-align: center;
-        display: flex;
-        justify-content: center;
-        margin-top: 0rem;
-        color: white;
-        gap: 1rem;
-        background-color: black;
-        align-items: center;
-}
-.prueba{
-  text-align: center;
-        display: flex;
-        justify-content: center;
-        margin-top: 0.4rem;
-        gap: 1rem;
-       }
-.btn{
-  height: 2.5rem;
-  margin-top: 0.8rem;
-}
-.contenedor-img{
- display: flex;
- justify-content: center;
-}
-.imgs{
-  width: 350px;
-  height: 250px;
-}
-.contenedor-p{
-  padding-left: 4rem;
-}
 .footer {
   background: linear-gradient(to right, black, grey);
 }
@@ -441,23 +530,15 @@ body .carousel-inner {
   text-align: center;
   display: flex;
   justify-content: center;
-  height: fit-content;
-  align-items: center;
+  height: 10rem;
   margin-top: 10rem;
   color: white;
   gap: 2rem;
-  background-color: black;
-}
-.Descarga{
-  text-align: center;
-  display: flex;
-  justify-content: center;
-  gap: 2rem;
 }
 .footer .footer-sm {
-  text-align:right;
-  font-size: 2rem;
-  padding-right: 1rem;
+  color: white;
+  text-align: center;
+  font-size: 1.5rem;
 }
 .footer .footer-sm a {
   color: white;
@@ -467,35 +548,6 @@ body .carousel-inner {
   opacity: 0.65;
 }
 
-@media screen and (max-width: 600px) {
-  .contenedor-p{
-      display: flex;
-      flex-direction: column;
-      align-content: center;
-      justify-content: center;
-      align-items: center;
-      padding-left: 0;
-  }
-  .info-p{
-      padding-left: 0;
-  }
-  .trabaja-info {
-      padding-left: 0;
-  }
-  .texto-nosotros{
-    padding-left: 1rem;
-    padding-right: 1rem;
-  }
-  .carousel-item {
-  height: auto;
-}
-}
 
-@media screen and (max-width: 380px) {
-  .imgs{
-    width: 300px;
-    height: 200px;
-  }
-}
 
 /*# sourceMappingURL=style.css.map */
