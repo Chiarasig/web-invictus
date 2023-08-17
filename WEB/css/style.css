@@ -248,6 +248,7 @@ header {
 
 .containerCard {
   margin: 20px;
+  width: 100%;
 }
 
 .card:hover {
@@ -262,7 +263,7 @@ header {
 
 @media screen and (min-width: 1220px) {
   .containerCard {
-    width: 30%;
+    width: 30% !important;
   }
 }
 * {
@@ -505,6 +506,9 @@ body .titulo-invictus::after, body .titulo-invictus::before {
   width: 120px; */
 }
 @media screen and (min-width: 710px) {
+  .containerCard {
+    width: 45%;
+  }
   body .titulo-invictus::after, body .titulo-invictus::before {
     content: "";
     position: absolute;
