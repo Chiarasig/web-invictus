@@ -23,13 +23,23 @@ body{
     }
     
 }
+
+.img-index{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+}
+
 .footer{
     background: linear-gradient(to right, black,grey);
     .Contenedor_descarga{
         text-align: center;
         display: flex;
         justify-content: center;
-        height: 10rem;
+        height: fit-content;
+        align-items: center;
         margin-top: 10rem;
         color: white;
         gap: 2rem;
@@ -70,6 +80,37 @@ body{
 .titulo-invictus::before{
     left: -140px;
 }
+
+@media screen and (max-width: 600px) {
+    .contenedor-p{
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+        padding-left: 0;
+    }
+    .info-p{
+        padding-left: 0;
+    }
+    .trabaja-info {
+        padding-left: 0;
+    }
+    .texto-nosotros{
+      padding-left: 1rem;
+      padding-right: 1rem;
+    }
+    /* .carousel-item {
+    height: auto;
+  } */
+  }
+  
+  @media screen and (max-width: 380px) {
+    .imgs{
+      width: 300px;
+      height: 200px;
+    }
+  }
 
 @media screen and (min-width: 680px) {
     body .titulo-invictus::after, body .titulo-invictus::before {
